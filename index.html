@@ -4,68 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* CSS is in a style block to keep it in a single file */
-        body,h1,h2,p{
-            margin:0;
-            padding:0;
-        }
-        body{
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            display:flex;
-            flex-direction:column;
-        }
-        header{
-            background-color: #333;
-            color:#fff;
-            text-align:center;
-            padding:1rem;
-        }
-        /* The flex: 1 0 auto; property on the main element is what makes it grow to fill the space. */
-        main{
-            flex: 1 0 auto; 
-            padding:2rem;
-            text-align: center;
-        }
-        .profile{
-            display: flex;
-            align-items:center;
-            padding: 2rem;
-        }
-        .photo{
-            flex:1;
-            padding:0 2rem;
-        }
-        .photo img{
-            max-width: 100%;
-            height:auto;
-            border-radius:50%;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        }
-        .bio{
-            flex:2;
-            padding: 0 2rem;
-        }
-        footer{
-            flex-shrink: 0;
-            text-align: center;
-            padding:1rem 0;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            margin-top: auto;
-        }
-        @media screen and (max-width:768px){
-            .profile{
-                flex-direction: column;
-            }
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -74,7 +13,7 @@
     <main>
         <section class="profile">
             <div class="photo">
-                <img src="https://placehold.co/200x200/50c6d7/ffffff?text=SHREYA" alt="SHREYA's Photo">
+                <img src="me.png" alt="SHREYA's Photo">
             </div>
             <div class="bio">
                 <h2>ABOUT ME</h2>
