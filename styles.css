@@ -3,13 +3,11 @@ body,h1,h2,p{
     padding:0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     min-height: 100vh;
     display:flex;
-    flex-direction:column ;
-   
-  
+    flex-direction:column;
 }
 header{
     background-color: #333;
@@ -25,6 +23,7 @@ main{
 .profile{
     display: flex;
     align-items:center;
+    padding: 2rem;
 }
 .photo{
     flex:1;
@@ -38,6 +37,7 @@ main{
 }
 .bio{
     flex:2;
+    padding: 0 2rem;
 }
 footer{
     flex-shrink: 0;
@@ -47,9 +47,8 @@ footer{
     color: #fff;
     padding: 20px;
     margin-top: auto;
-    
 }
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     .profile{
         flex-direction: column;
     }
