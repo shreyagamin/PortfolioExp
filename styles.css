@@ -18,7 +18,9 @@ header{
     padding:1rem;
 }
 main{
+    flex: 1 0 auto;
     padding:2rem;
+    text-align: center;
 }
 .profile{
     display: flex;
@@ -38,6 +40,7 @@ main{
     flex:2;
 }
 footer{
+    flex-shrink: 0;
     text-align: center;
     padding:1rem 0;
     background-color: #333;
